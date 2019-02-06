@@ -20,7 +20,9 @@ class App extends Component {
       onChange = {this.countHandler}
       />
       <p>{this.state.length}</p>
-      <Validationcomponent />
+      <Validationcomponent
+      length = {this.state.length}
+       />
 
       </div>
     );

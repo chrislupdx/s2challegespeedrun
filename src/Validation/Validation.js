@@ -1,7 +1,7 @@
 import React from 'react';
 
 const validationcomponent = ( props ) => {
-  if (props.length > 5) {
+  if (props.length < 5) {
     return (
       <div className = "tooshort">
         <p>tooshort</p>
