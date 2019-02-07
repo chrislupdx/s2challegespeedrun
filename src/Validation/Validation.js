@@ -15,6 +15,6 @@ const validationcomponent = ( props ) => {
       </div>
     )
   }
-}
+};
 
 export default validationcomponent;
